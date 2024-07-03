@@ -28,3 +28,7 @@ make test
 # run CI tests
 make ci-test
 ```
+
+## References
+
+- [Quickstart: Run end-to-end tests at scale with Microsoft Playwright Testing Preview](https://learn.microsoft.com/en-us/azure/playwright-testing/quickstart-run-end-to-end-tests?tabs=playwrightcli)

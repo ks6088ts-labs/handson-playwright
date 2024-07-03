@@ -51,3 +51,7 @@ ci-test: install-deps-dev format-check lint test ## run CI tests
 .PHONY: show-report
 show-report: ## show report
 	npx playwright show-report
+
+.PHONY: playwright-testing
+playwright-testing: ## run tests on Microsoft Playwright Testing
+	npx playwright test --config=playwright.service.config.ts --workers=20
